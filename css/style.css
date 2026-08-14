@@ -1,0 +1,98 @@
+
+/* =========== RESET STYLING ============ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+:root{
+    --GreenColor : #2B613A;
+    --GreyColor: #D1CDC4;
+    --WhiteColor:#fff;
+    --BlackColour:#000;
+
+    --ContainerPadding:0px 40px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+.d-flex-middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-between{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 16px;
+    letter-spacing: .4px;
+    font-weight: 300;
+}
+
+.text-white{
+    color: var(--WhiteColor);
+}
+
+.container{
+    padding: var(--ContainerPadding);
+}
+
+/* =========== HEADER ============ */
+
+.topbar{
+    background-color: var(--GreenColor);
+    padding-block: 5px;
+}
+
+.topbar p{
+    font-size: 13px;
+}
+
+.logobox img{
+    width: 80%;
+}
+
+.headerMenuList li{
+    margin: 0px 10px;
+}
+
+.headerRightIcons i{
+    font-size: 18px;
+}
+
+.headerMenuList a {
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    font-weight: 300;
+    color: var(--BlackColour);
+}
+
+/* =========== HEADER ============ */
+
