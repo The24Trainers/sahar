@@ -131,3 +131,94 @@ a.bannerButton:hover{
 }
 /* =========== HERO ============ */
 
+
+/* =========== PRODUCT CARDS ============ */
+
+#productSectionOne{
+    padding-block: 40px;
+}
+
+.productInner{
+    width: 32%;
+}
+
+.productInner img{
+    width: 100%;
+}
+
+.productParentBox{
+    justify-content: space-between;
+}
+
+.cartButton {
+    width: 100%;
+    background: var(--GreenColor);
+    border: none;
+    padding-block: 8px;
+    color: var(--WhiteColor);
+    /* display: none; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+.productHoverFunction{
+    position: relative;
+}
+
+.cartButton:hover{
+    cursor: pointer;
+    background-color: #3e8d54 ;
+}
+
+.productHoverFunction:hover .cartButton{
+    display: block;
+}
+
+.videoLeft img {
+    width: 100%;
+}
+
+.videoLeft {
+    width: 30%;
+}
+
+#inspired img{
+    width: 100%;
+}
+
+.insipredOuter{
+    justify-content: space-between;
+}
+
+#inspired .container{
+    padding-right: 0px;
+}
+
+.videoRight{
+    height: 450px;
+    width: 50%;
+}
+
+.videoRight img{
+    height: 450px;
+}
+
+.videoLeft {
+    width: 30%;
+    margin-left: 150px;
+}
+
+#inspired p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#inspired h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* =========== PRODUCT CARDS ============ */
+
